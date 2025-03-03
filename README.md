@@ -24,7 +24,7 @@ Randomized User-Agent Rotation: Mimics real users by cycling through various Use
 
 Logging & Error Handling: Logs scan results, errors, and responses for analysis.
 
-Installation
+# Installation
 
 Requirements
 
@@ -34,13 +34,13 @@ Required Libraries: Install dependencies using:
 
 pip install requests argparse pyfiglet
 
-Usage
+# Usage
 
 Run the script with the target URL:
 
 python scanner.py --url http://example.com/page.php?id=1
 
-Optional Arguments:
+# Optional Arguments:
 
 --proxy http://127.0.0.1:8080 → Use a proxy.
 
@@ -48,13 +48,11 @@ Optional Arguments:
 
 --timeout 10 → Set request timeout.
 
-Example Output
+# Example Output
 
 [INFO] Testing for SQL Injection...
 [ALERT] SQL Injection Detected! Payload: ' OR 1=1--
 [INFO] Extracting database information...
 [INFO] Database Name: my_database
 
-Disclaimer
-
-This tool is intended for educational and security research purposes only. Unauthorized use on systems you do not own or have permission to test is illegal.
+Feel free to fork and add to it.
